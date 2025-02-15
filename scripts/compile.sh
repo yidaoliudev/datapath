@@ -4,7 +4,7 @@ export GOOS=linux
 export CGO_ENABLED=0
 export GOARCH=amd64
 
-work_path=$GOPATH"/src/dkgwan-datapath"
+work_path=$GOPATH"/src/sd-wan-datapath"
 path=`pwd`
 
 if [ ! -d $work_path ]; then
