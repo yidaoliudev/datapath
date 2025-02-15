@@ -1,0 +1,12 @@
+/*
+ 1、配置信息有：POP Sn以及Core信息。
+ 2、发布流程中，在POP节点创建，路径：/mnt/agent/core_info.json
+ */
+
+{
+    "Sn":"POPTEST001",
+    "Cid":"10001",
+    "CoreAddress":"router-wan-dev.hzk8s.com",
+    "CoreProto":"http",
+    "CorePort":80
+}
